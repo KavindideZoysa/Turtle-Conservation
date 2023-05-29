@@ -1,0 +1,144 @@
+/* Navigation bar */
+.navbar {
+  font-size: 25px;
+  font-family: 'Bad Script', cursive;
+  font-weight: bolder;
+  background-color: #118d72;
+  border-radius: 10px;
+  position: static;
+  display: flex;
+  position: static;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  text-decoration:none;
+  padding-inline: 30px;
+}
+
+.navbar a:hover {
+  color: rgb(235, 232, 84);
+  font-size: 30px;
+  transition: all 0.5s;
+}
+
+.navbar a.active {
+ color:#e9dd3e;
+ font-size: 30px;
+}
+/*-------------------------------------------------------------------*/
+
+/* heading question*/
+#question {
+  background-color: rgb(247, 234, 125);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Bad Script', cursive;
+  padding: 20px 20px;
+  text-align: center;
+  margin: auto;
+  animation-name: example;
+  animation-duration: 6s;
+}
+/*-------------------------------------------------------------------*/
+
+/* Colour change animation*/
+@keyframes example {
+  from {background-color: rgb(247, 234, 125) ;}
+  to {background-color: #118d72;}
+}
+/*-------------------------------------------------------------------*/
+
+/* heading question*/
+#para {
+  font-size: 25px;
+  text-align: justify;
+  font-family: 'Marmelad', sans-serif;
+  padding-inline: 20px;
+  border: 5px dashed #18c096;
+}
+/*-------------------------------------------------------------------*/
+
+/*Topic- the types of turtle*/
+.type{
+  font-family: 'Gravitas One', cursive;
+   font-size: 60px ;
+   color: rgb(0, 0, 0);
+   text-decoration: underline;
+   margin: auto;
+}
+
+/* Paragraphs- the types of turtle*/
+.description{
+    background-color: rgb(247, 234, 125);
+    padding-inline: 20px;
+    margin-top: 6px;
+    font-size: 30px ;
+    font-weight: bold;
+    text-align: justify;
+    margin-inline:2%;
+}
+/*-------------------------------------------------------------------*/
+
+/* Images- the types of turtle*/
+.images{
+    width: 35em;
+    height: 15em;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+/*-------------------------------------------------------------------*/
+
+/* The whole article- the types of turtle*/
+.parts {
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin-block: 2%;
+    background-color: #18c096;
+}
+/*-------------------------------------------------------------------*/
+
+/*The table */
+ table, td,tr,th {
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+ }
+
+ tr {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(247, 234, 125);
+  color: black;
+ }
+
+ tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+ }
+
+ th, footer {
+  color: #080a0a;
+  background-color: rgb(90, 214, 173);
+  font-family: 'Marmelad', sans-serif;
+  font-size: 24px;
+  text-align: center;
+ }
+/*-------------------------------------------------------------------*/
+
+/* footer */
+#footer {
+  font-size: 20px;
+  font-family: Cambria;
+  text-align: center;
+  background-color: #dfd76c;
+  padding-block: 50px ;
+}
+ 

@@ -1,0 +1,130 @@
+body {
+    background-color: beige;
+}
+/* Navigation bar */
+.navbar {
+  font-size: 25px;
+  font-family: 'Bad Script', cursive;
+  font-weight: bolder;
+  background-color: #118d72;
+  border-radius: 10px;
+  position: static;
+  display: flex;
+  position: static;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  text-decoration:none;
+  padding-inline: 30px;
+}
+
+.navbar a:hover {
+  color: rgb(235, 232, 84);
+  font-size: 30px;
+  transition: all 0.5s;
+}
+
+.navbar a.active {
+ color:#e9dd3e;
+ font-size: 30px;
+}
+/*-------------------------------------------------------------------*/
+
+/* The main topic */
+#topic {
+  font-size: 30px;
+  font-family:'Lucida Sans';
+  font-weight: 100 ;
+  text-decoration: underline ;
+  text-align: center;
+  text-shadow: 3px 3px aqua;
+}
+/*-------------------------------------------------------------------*/
+
+/* The four Images */
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  width: 500px;
+  height:300px;
+  border: 5px solid #118d72;
+  margin: auto;
+  }
+  
+div.scroll-container img {
+  width: 500px;
+  height: 280px;
+  }
+/*-------------------------------------------------------------------*/
+
+/* The description*/
+#para {
+  width: 90%;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px dashed black;
+  background-color: antiquewhite;
+  margin: auto;
+  margin-top: 20px;
+  }
+/*-------------------------------------------------------------------*/
+
+/* The Map*/
+#map {
+  width: 500px;
+  height: 400px;
+  border: 60px solid #eff162;
+  margin: auto;
+  margin-top: 30px;
+ }
+/*-------------------------------------------------------------------*/
+
+/*  Important points- section*/
+#container{
+  float: right;
+  background-color: aqua;
+  width: 45%;
+  margin-inline: 2px;
+  margin-block: 30px;
+  padding-inline: 30px;
+  padding-block: 50px;
+ }
+/*-------------------------------------------------------------------*/
+
+/*  Important points- topic*/
+#points{
+  background-color: #eff162;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px 30px;
+  text-align: center;
+ }
+/*-------------------------------------------------------------------*/
+
+/*  Important points- facts */
+.facts {
+  background-color: #9a9c02;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+ }
+/*-------------------------------------------------------------------*/
+
+/* footer */
+#footer {
+  font-size: 20px;
+  font-family: Cambria;
+  text-align: center;
+  background-color: #dfd76c;
+  padding-block: 50px ;
+}
+

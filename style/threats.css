@@ -1,0 +1,199 @@
+/* Navigation bar */
+.navbar {
+    font-size: 25px;
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+    background-color: #118d72;
+    border-radius: 10px;
+    position: static;
+    display: flex;
+    position: static;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    text-decoration:none;
+    padding-inline: 30px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(235, 232, 84);
+    font-size: 30px;
+    transition: all 0.5s;
+  }
+  
+  .navbar a.active {
+   color:#e9dd3e;
+   font-size: 30px;
+  }
+/*-------------------------------------------------------------------*/
+
+/*The threats section */
+#section1 {
+    border: 50px solid #18c096;
+}
+/*-------------------------------------------------------------------*/
+
+/*The topic of threats  */
+h1 {
+    font-size: 50px;
+    font-family:'Lucida Sans';
+    text-align: center;
+    background-color:#18c096;
+    color: aliceblue;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+
+}
+/*-------------------------------------------------------------------*/
+
+/* The threat- article  */
+.articles_for_threats {
+    width: 800px;
+    background-color: rgb(247, 234, 125);
+    margin: auto;
+    margin-block: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width:1000px){
+    .articles_for_threats{
+        width: initial;
+    } 
+}
+/*-----------------------------------------*/
+
+/*Type of threat- Topic */
+.threats {
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+
+}
+/*-----------------------------------------*/
+
+/*Type of threat- image */
+.threatsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 250px;
+    border-style: solid ;
+    box-shadow: 10px 10px 10px 10px rgb(159, 160, 151);
+    border-color: rgb(72, 75, 75);
+    
+}
+/*-------------------------------------------*/
+
+/*Type of threat- Description*/
+.threatpara {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    
+}
+/*-------------------------------------------------------------------*/
+
+/* The conservation measures - article  */
+.conserve {
+    float: left;
+    width: 420px;
+    background-color: rgb(247, 234, 125);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+
+}
+/*-------------------------------------------*/
+
+/*Type of conservation- topic*/
+.contopic {
+    font-family: 'Marmelad', sans-serif;
+    text-decoration:underline;
+    text-align: center;
+}
+/*-------------------------------------------*/
+
+/*Type of conservation- description*/
+.conpara {
+    text-align: justify;
+    text-indent: 2px;
+    font-weight: bold;
+    padding: 5px;  
+}
+/*-------------------------------------------*/
+
+/*Type of threat- description - last */
+.conpara3 {
+    text-align: justify;
+    text-indent: 2px;
+    font-weight: bold;
+    padding: 5px;
+    padding-bottom: 25px ;
+}
+/*-------------------------------------------*/
+
+/* What SL has done for conservation*/
+#sl_content {
+    background-color: #53e7c2;
+    border-radius: 40%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*-------------------------------------------*/
+
+/* Links for kosgoda and bentota */
+.button {
+    font-family: cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #000000; 
+    text-decoration: none;
+    padding: 20px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 120px;
+    cursor: pointer;
+    background-color: #38ceb5;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #9ed8cb;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+/*-------------------------------------------------------------------*/
+
+/* footer */
+#footer {
+    font-size: 20px;
+    font-family: Cambria;
+    text-align: center;
+    background-color: #dfd76c;
+    padding-block: 50px ;
+  }
